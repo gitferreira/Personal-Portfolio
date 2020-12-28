@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+	integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles.css">
+	<title>Personal Portfolio | Iñigo Ferreira</title>
+</head>
+
+<body>
+	
+	<header>
+
+		<a href = "#home"> 
+			<ul class="textLogo hidden">
+				<li class="ghost"><i>|</i>&nbsp;</li>
+				<li>I</li>
+				<li class="ghost">Ñ</li>
+				<li class="ghost">I</li>
+				<li class="ghost">G</li>
+				<li class="ghost">O</li>
+				<li class="ghost">&nbsp;</li>
+		
+				<li>F</li>
+				<li class="ghost">E</li>
+				<li class="ghost">R</li>
+				<li class="ghost">R</li>
+				<li class="ghost">E</li>
+				<li class="ghost">I</li>
+				<li class="ghost">R</li>
+		
+				<li class="ghost">A</li>
+				<li class="ghost">&nbsp;<i>|</i></li>
+		  </ul>
+		</a>
+
+		<div class="toggle" onclick="toggleMenu()"></div>
+		<ul class="menu">
+			<li><a href="#home" onclick="toggleMenu()"> Home </a> </li>
+			<li><a href="#about" onclick="toggleMenu()"> About </a> </li>
+			<li><a href="#skills" onclick="toggleMenu()"> Skills </a> </li>
+			<li><a href="#work" onclick="toggleMenu()"> Work </a> </li>
+			<li><a href="#testimonial" onclick="toggleMenu()"> Testimonials </a> </li>
+			<li><a href="#contact" onclick="toggleMenu()"> Contact </a> </li>
+
+		</ul>
+	</header>
+
+	<section class="banner" id= "home">
+		<div class="textBx">
+			<h2>Hello, I´m <br><span> Iñigo Ferreira </span></h2>
+			<h3>I´m a Full Stack Developer</h3>
+			<a href="#"> About Me </a>
+		</div>
+	</section>
+
+	<section class="about" id="about">
+		<div class="heading">
+			<h2>About Me</h2>
+		</div>
+		<div class="content">
+			<div class="contentBx w50">
+				<h3>Coding my way to the Top</h3>
+				<p>
+					I always thought my dream was to get into the tech industry; working at my 3 monitor setup, playing
+					some ping-pong after the
+					coffee-break and starting conversations with potential investors for the new Facebook, AirBnb or
+					whatever groundbreaking product
+					the company was developing. It seemed to be an appropiate dream given my bachellor in Business
+					Management, from which I gravitated
+					towards Innovation management. I got my Masters degree on the topic and started working for
+					innovative and tech-savvy companies.
+					But I kind of just felt that i needed more, that I yearned to learn more, and to learn something
+					different.
+					<br><br>
+					And then it happened, the spark I was missing lighted up the second I clicked play on my first
+					Javascript tutorial video.
+					Since then, I can´t just get enough. FullStack development calls to all my passions; incorporating
+					creativity and analytical thinking
+					to problem solving to create distinctly unique solutions.
+					<br><br>
+					I decided to pursue a Web-app development bootcamp called IronHack which I had been highly
+					recommended, and in the span of three months
+					I had HTML, CSS, Javascript, jQuery, React, Redux, Jasmine, Bootstrap, Node.JS, MongoDB, Express.JS,
+					Git/GitHub, Heroku and
+					Digital Ocean under my belt. I´ve started learning AngularJS and giving my first steps with Python
+					and I´m eager to grab any
+					other programming languajes, frameworks or principles I can integrate into my projecs.
+					<br><br>
+					I love the principles of responsiveness and the oddly satisfying feeling when watching websites
+					shrink into mobile screens to still look amazing. I like to see myself like those web pages,
+					moldable but still keeping my creative twist.
+				</p>
+			</div>
+			<div class="w50">
+				<img src="./images/aboutMe2.jpg" alt="image" class="img">
+			</div>
+		</div>
+	</section>
+
+	<section class="skills" id = "skills">
+
+		<div class="heading-2">
+			<h2>Skills</h2>
+		</div>
+
+		<div class="skillsBar">
+
+
+
+			<div class="box">
+				<p>Communication</p>
+				<div class="progress">
+					<div class="progress-bar">
+						<span></span>
+					</div>
+				</div>
+				<p>Teamwork</p>
+				<div class="progress">
+					<div class="progress-bar">
+						<span></span>
+					</div>
+				</div>
+				<p>Flexibility</p>
+				<div class="progress">
+					<div class="progress-bar">
+						<span></span>
+					</div>
+				</div>
+				<p>Out-of-the-Box Thinking</p>
+				<div class="progress">
+					<div class="progress-bar">
+						<span></span>
+					</div>
+				</div>
+				<p>Project Management</p>
+				<div class="progress">
+					<div class="progress-bar">
+						<span></span>
+					</div>
+				</div>
+			</div>
+
+			<div class="box">
+				<p>HTML</p>
+				<div class="progress">
+					<div class="progress-bar red">
+						<span></span>
+					</div>
+				</div>
+				<p>CSS</p>
+				<div class="progress">
+					<div class="progress-bar red">
+						<span></span>
+					</div>
+				</div>
+				<p>JavaScript</p>
+				<div class="progress">
+					<div class="progress-bar red">
+						<span></span>
+					</div>
+				</div>
+				<p>React</p>
+				<div class="progress">
+					<div class="progress-bar red">
+						<span></span>
+					</div>
+				</div>
+				<p>Node.JS</p>
+				<div class="progress">
+					<div class="progress-bar red">
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="work" id = "work">
+		<div class="heading">
+			<h2>My Latest Work</h2>
+			<p>Check out some of the Projects I´ve been working on recently!</p>
+		</div>
+		<div class="content">
+			<div class="workBx">
+				<img src="https://live.staticflickr.com/65535/50747057598_18b385943c_c.jpg" alt="fresh-img">
+			</div>
+			<div class="workBx">
+				<img src="https://live.staticflickr.com/65535/50748153546_0ece3f1c58_c.jpg" alt="fresh-img">
+			</div>
+			<div class="workBx">
+				<img src="https://live.staticflickr.com/65535/50766600012_6c65b1388a_c.jpg" alt="fresh-img">
+			</div>
+			<div class="workBx">
+				<img src="https://live.staticflickr.com/65535/50766492796_f10242703a_c.jpg" alt="fresh-img">
+			</div>
+		</div>
+		<div class="heading">
+			<a href="#" class="btn">View More</a>
+		</div>
+	</section>
+
+	<section class="testimonial" id = "testimonial">
+		<div class="heading">
+			<h2>References</h2>
+			<p>What previopus employers said :)</p>
+		</div>
+		<div class="content">
+
+			<div class="testimonialBx">
+				<p>
+					Iñigo consistently delivered beyond expectations, actively contributing to innovative strategies and
+					the development of SERN. Through his willingness to learn, we successfully met several deadlines on
+					the expected deliverables of our projects and expanded our Network. We can say he was a key element
+					to maintain our communication channels and helping us pursue the overall goals of SERN. In sum,
+					Iñigo is very hardworking,
+					receptive to recommendations and is genuine in building effective working/professional
+					relationships. We wish him all the best in his future endeavours.
+				</p>
+				<h3> Andreia Mendes <br> <span> Innovation Consultant </span></h3>
+			</div>
+
+			<div class="testimonialBx">
+				<p>
+
+					It has been a pleasure working with Iñigo.<br> He has shown a lot of creativity, self-management
+					skills, an open attitude to keep learning, attention to detail in the reports that he has had to
+					develop,
+					knowledge of digital marketing and above all a great camaraderie during the months he has been in
+					Demium. <br>
+					Having him has been a pleasure and I wish him the best in his future career opportunities.
+				</p>
+				<br><br>
+				<h3> Idoia Iturbe <br> <span> Globalik Business Groups General Manager </span></h3>
+			</div>
+
+		</div>
+	</section>
+	<section class="contact" id = "contact">
+		<div class="heading">
+			<h2>Contact Me</h2>
+			<p>Let´s get in touch!</p>
+		</div>
+		<div class="content">
+			<div class="contactInfo">
+				<h3>Contact Info</h3>
+				<div class="contactInfoBx">
+					<div class="contactBox">
+						<div class="icon"><i class="fa fa-map-marker"></i> </div>
+						<div class="text">
+							<h3>Address</h3>
+							<p>Elkano 31 2ºC, <br> Getxo, Spain, <br> 48992 </p>
+						</div>
+					</div>
+					<div class="contactBox">
+						<div class="icon"><i class="fa fa-phone"></i></div>
+						<div class="text">
+							<h3>Phone</h3>
+							<p>+34 664 069 414 </p>
+						</div>
+					</div>
+					<div class="contactBox">
+						<div class="icon"><i class="fa fa-envelope-o"></i></div>
+						<div class="text">
+							<h3>Email</h3>
+							<p>iniferre96@gmail.com </p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="formBx">
+				<form>
+					<h3>Message Me</h3>
+					<input type = "text" name = "" placeholder="Full Name">
+					<input type = "email" name = "" placeholder= "Email">
+					<textarea placeholder="Your Message"></textarea>
+					<input type = "submit" value = "Send" > 
+				</form>
+			</div>
+		</div>
+	</section>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+	<script src="./app.js"> </script>
+</body>
+
+</html>
