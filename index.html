@@ -53,7 +53,7 @@
 		<div class="textBx">
 			<h2>Hello, I´m <br><span> Iñigo Ferreira </span></h2>
 			<h3>I´m a <span class="fs"> Full Stack </span> Developer</h3>
-			<a href="#"> About Me </a>
+			<a href="https://drive.google.com/file/d/1TX9INyvXTSuDAIOjvji-dXmVwoYue8SY/view" target="_blank"> DOWNLOAD CV </a>
 		</div>
 	</section>
 
@@ -195,9 +195,13 @@
 			<p class=subtitle1>Check out some of the Projects I´ve been working on recently!</p>
 		</div>
 		<div class="container">
+			
 			<div class="card green">
+
 				<div class="imgBx">
+					<a href = "https://fresh-react-app.herokuapp.com/" target="_blank"> 
 					<img src="https://live.staticflickr.com/65535/50747057598_18b385943c_c.jpg">
+				</a>
 				</div>
 				<div class="content">
 					<h2>Fresh</h2>
@@ -211,7 +215,9 @@
 
 			<div class="card tomato">
 				<div class="imgBx">
+					<a href = "https://gitferreira.github.io/Zombies-Game-JS/" target="_blank"> 
 					<img src="https://live.staticflickr.com/65535/50748153546_0ece3f1c58_c.jpg">
+					</a>
 				</div>
 				<div class="content">
 					<h2>Mech-it-Red</h2>
@@ -222,7 +228,9 @@
 			</div>
 			<div class="card mountain">
 				<div class="imgBx">
+					<a href = "https://localhost:4000/" target="_blank">
 					<img src="https://live.staticflickr.com/65535/50766600012_6c65b1388a_c.jpg">
+				</a>
 				</div>
 				<div class="content">
 					<h2>Ironotes</h2>
@@ -233,7 +241,9 @@
 			</div>
 			<div class="card orange">
 				<div class="imgBx">
+					<a href = "https://gitferreira.github.io/To-Do-List-Project---JS/" target="_blank"> 
 					<img src="https://live.staticflickr.com/65535/50766492796_f10242703a_c.jpg">
+				</a>
 				</div>
 				<div class="content">
 					<h2>To-Do List</h2>
@@ -248,7 +258,7 @@
 
 
 		<div class="heading">
-			<a href="#" class="viewMoreBtn">View More</a>
+			<a href="https://github.com/gitferreira"  target="_blank" class="viewMoreBtn">View More</a>
 		</div>
 	</section>
 
@@ -328,21 +338,41 @@
 					</div>
 					<div class="wrap">
 
-						<div class="linkedin icon1"><a href="https://www.linkedin.com" target="_blank"></a></div>
-						<div class="instagram icon1"><a href="http://www.pintrest.com" target="_blank"></a></div>
-						<div class="github icon1"><a href="https://www.github.com" target="_blank"></a></div>
+						<div class="linkedin icon1"><a href="https://www.linkedin.com/in/i%C3%B1igo-ferreira/" target="_blank"></a></div>
+						<div class="instagram icon1"><a href="https://www.instagram.com/iferreiraruiz/" target="_blank"></a></div>
+						<div class="github icon1"><a href="https://github.com/gitferreira" target="_blank"></a></div>
 		
 					</div>
 				</div>
 			</div>
 			<div class="formBx">
-				<form>
-					<h3><strong> Message Me </strong></h3>
-					<input type="text" name="" placeholder="Full Name" class="input">
-					<input type="email" name="" placeholder="Email" class="input">
-					<textarea placeholder="Your Message"></textarea>
-					<input type="submit" value="Send" class="viewMoreBtn">
-				</form>
+				<div class="container">
+					<form action="https://formspree.io/f/xeqpvjvb" method="POST" id="my-form">
+				
+					  <div class="form-group">
+						<label for="firstName"> First Name</label>
+						<input type="text" id="firstName" name="firstName">
+					  </div>
+				
+					  <div class="form-group">
+						<label for="latsName">Last Name</label>
+						<input type="text" id="lastName" name="lastName">
+					  </div>
+				
+					  <div class="form-group">
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email">
+					  </div>
+				
+					  <div class="form-group">
+						<label for="massage">Message</label>
+						<textarea name="massage" id="massage" cols="100" rows="5"></textarea>
+					  </div>
+				
+					  <button type="submit">Submit</button>
+					</form>
+				  </div>
+				  <div id="status"></div>
 			</div>
 
 		</div>
