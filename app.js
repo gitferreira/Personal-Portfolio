@@ -77,50 +77,50 @@ function toggleMenu(){
 
 // Scroll transitions
 
-// function scrollShow(){
-// 	const contentBx = document.querySelector(".contentBx");
-// 	const desert = document.querySelector(".desert");
-// 	const title1= document.querySelector(".title1");
-// 	const introPosition = contentBx.getBoundingClientRect().top;
-// 	// console.log(introPosition)
-// 	const screenPosition = window.innerHeight / 1.2;
+function scrollShow(){
+	const contentBx = document.querySelector(".contentBx");
+	const desert = document.querySelector(".desert");
+	const title1= document.querySelector(".title1");
+	const introPosition = contentBx.getBoundingClientRect().top;
+	// console.log(introPosition)
+	const screenPosition = window.innerHeight / 1.2;
 
 
-// 	if(introPosition < screenPosition) {
-// 		contentBx.classList.add("contentShow")
-// 		desert.classList.add("desertShow")
-// 		title1.classList.add("title1Show")
-// 	}
-// }
+	if(introPosition < screenPosition) {
+		contentBx.classList.add("contentShow")
+		desert.classList.add("desertShow")
+		title1.classList.add("title1Show")
+	}
+}
 
-// function scrollShow2(){
-// 	const title2 = document.querySelector(".title2");
-// 	const subtitle1 = document.querySelector(".subtitle1");
-// 	const introPosition2 = title2.getBoundingClientRect().top;
-// 	const screenPosition = window.innerHeight / 1.2;
+function scrollShow2(){
+	const title2 = document.querySelector(".title2");
+	const subtitle1 = document.querySelector(".subtitle1");
+	const introPosition2 = title2.getBoundingClientRect().top;
+	const screenPosition = window.innerHeight / 1.2;
 
-// 	if(introPosition2 < screenPosition) {
-// 		title2.classList.add("title2Show")
-// 		subtitle1.classList.add("subtitle1Show")
-// }
-// }
+	if(introPosition2 < screenPosition) {
+		title2.classList.add("title2Show")
+		subtitle1.classList.add("subtitle1Show")
+}
+}
 
 
-// function scrollShow3(){
-// 	const title3 = document.querySelector(".title3");
-// 	const subtitle2 = document.querySelector(".subtitle2");
-// 	const testimonialBx = document.querySelector(".testimonialBx");
-// 	const testimonialBx2 = document.querySelector(".testimonialBx2");
-// 	const introPosition3 = title3.getBoundingClientRect().top;
-// 	const screenPosition = window.innerHeight / 1.2;
+function scrollShow3(){
+	const title3 = document.querySelector(".title3");
+	const subtitle2 = document.querySelector(".subtitle2");
+	const testimonialBx = document.querySelector(".testimonialBx");
+	const testimonialBx2 = document.querySelector(".testimonialBx2");
+	const introPosition3 = title3.getBoundingClientRect().top;
+	const screenPosition = window.innerHeight / 1.2;
 
-// 	if(introPosition3 < screenPosition) {
-// 		title3.classList.add("title3Show")
-// 		subtitle2.classList.add("subtitle2Show")
-// 		testimonialBx.classList.add("testimonialBxShow")
-// 		testimonialBx2.classList.add("testimonialBxShow")
-// }
-// }
+	if(introPosition3 < screenPosition) {
+		title3.classList.add("title3Show")
+		subtitle2.classList.add("subtitle2Show")
+		testimonialBx.classList.add("testimonialBxShow")
+		testimonialBx2.classList.add("testimonialBxShow")
+}
+}
 
 
 // Form
