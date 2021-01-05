@@ -1122,6 +1122,11 @@ letter-spacing: 2px;
 		padding: 10px;
 	}
 
+	.testimonial .content {
+		display: flex;
+		flex-direction: column;
+	}
+
 	.testimonial .content .testimonialBx {
 		max-width: 98%;
 		padding: 40px 20px;
