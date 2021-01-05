@@ -1,13 +1,13 @@
 //Logo Animation
 
-var script = document.createElement('script');
+const script = document.createElement('script');
 script.src = 'https://code.jquery.com/jquery-3.4.1.min.js';
 script.type = 'text/javascript';
 
 $(function() {
-	var text = $(".textLogo");
+	const text = $(".textLogo");
 	$(window).scroll(function() {
-	  var scroll = $(window).scrollTop();
+	  const scroll = $(window).scrollTop();
   
 	  if (scroll >= 10) {
 		text.removeClass("hidden");
